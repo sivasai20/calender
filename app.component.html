@@ -1,0 +1,18 @@
+<br>
+<div class="container">
+  <ul class="weekdays">
+    <li>MONDAY</li>
+    <li>TUESDAY</li>
+    <li>WEDNESDAY</li>
+    <li>THURSDAY</li>
+    <li>FRIDAY</li>
+    <li>SATURDAY</li>
+    <li>SUNDAY</li>
+  </ul>
+  <ul class="days">
+  <li *ngFor="let item of Dataas">
+    <div class="myDIV">Date:{{item.date}}</div>
+    <div class="hide">Enter:{{item.enter}} AM <br> Left:{{item.exit}} PM</div>
+</li>
+</ul>
+</div>
